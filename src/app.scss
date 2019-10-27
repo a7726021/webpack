@@ -1,0 +1,9 @@
+$red:#f00;
+.app{
+    color:$red;
+    .child{
+        color: $red;
+        display: flex;
+        flex-direction: column;
+    }
+}
